@@ -1,0 +1,13 @@
+# Ignorar la carpeta de entorno virtual (pesa mucho)
+.venv/
+venv/
+
+# Ignorar claves secretas (SEGURIDAD)
+.streamlit/secrets.toml
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración de PyCharm
+.idea/
